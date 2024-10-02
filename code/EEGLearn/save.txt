@@ -1,0 +1,971 @@
+  validation loss:              0.204437
+  validation accuracy:          91.52 %
+Epoch 8 of 10 took 16.675s
+  training loss:                0.222595
+  validation loss:              0.184841
+  validation accuracy:          92.41 %
+Epoch 9 of 10 took 16.596s
+  training loss:                0.195677
+  validation loss:              0.183738
+  validation accuracy:          91.96 %
+Epoch 10 of 10 took 16.820s
+  training loss:                0.180473
+  validation loss:              0.184585
+  validation accuracy:          90.18 %
+--------------------------------------------------
+Best validation accuracy:               93.75 %
+Best test accuracy:             92.91 %
+fold 13/13
+Building model and compiling functions...
+Starting training...
+Epoch 1 of 10 took 16.372s
+  training loss:                1.088102
+  validation loss:              0.712275
+  validation accuracy:          72.64 %
+Final results:
+  test loss:                    1.560124
+  test accuracy:                25.38 %
+Epoch 2 of 10 took 16.394s
+  training loss:                0.621546
+  validation loss:              0.321990
+  validation accuracy:          89.60 %
+Final results:
+  test loss:                    1.239047
+  test accuracy:                45.03 %
+Epoch 3 of 10 took 16.326s
+  training loss:                0.340289
+  validation loss:              0.256070
+  validation accuracy:          92.35 %
+Final results:
+  test loss:                    1.357028
+  test accuracy:                46.36 %
+Epoch 4 of 10 took 16.350s
+  training loss:                0.278194
+  validation loss:              0.233858
+  validation accuracy:          94.58 %
+Final results:
+  test loss:                    1.459989
+  test accuracy:                46.75 %
+Epoch 5 of 10 took 16.393s
+  training loss:                0.211792
+  validation loss:              0.197688
+  validation accuracy:          94.58 %
+Epoch 6 of 10 took 16.383s
+  training loss:                0.206378
+  validation loss:              0.195694
+  validation accuracy:          94.58 %
+Epoch 7 of 10 took 16.491s
+  training loss:                0.187134
+  validation loss:              0.185401
+  validation accuracy:          94.13 %
+Epoch 8 of 10 took 16.494s
+  training loss:                0.168733
+  validation loss:              0.214934
+  validation accuracy:          92.67 %
+Epoch 9 of 10 took 16.387s
+  training loss:                0.180515
+  validation loss:              0.176791
+  validation accuracy:          94.58 %
+Epoch 10 of 10 took 16.531s
+  training loss:                0.158931
+  validation loss:              0.184384
+  validation accuracy:          92.67 %
+--------------------------------------------------
+Best validation accuracy:               94.58 %
+Best test accuracy:             46.75 %
+Generating images for all time windows...
+Interpolating 2670/2670
+
+Training the LSTM-CONV Model...
+fold 1/13
+Building model and compiling functions...
+D:\software\anaconda\envs\test\lib\site-packages\lasagne\theano_extensions\conv.py:66: UserWarning: The `image_shape` keyword argument to `tensor.nnet.conv2d` is deprecated, it has been renamed to `input_shape`.
+  border_mode=border_mode)
+D:\software\anaconda\envs\test\lib\site-packages\theano\gpuarray\dnn.py:184: UserWarning: Your cuDNN version is more recent than Theano. If you encounter problems, try updating Theano or downgrading cuDNN to a version >= v5 and <= v7.
+  warnings.warn("Your cuDNN version is more recent than "
+D:\software\anaconda\envs\test\lib\site-packages\theano\scan_module\scan_perform_ext.py:76: UserWarning: The file scan_perform.c is not available. This donot happen normally. You are probably in a strangesetup. This mean Theano can not use the cython code for scan. If youwant to remove this warning, use the Theano flag'cxx=' (set to an empty string) to disable all ccode generation.
+  "The file scan_perform.c is not available. This do"
+D:\software\anaconda\envs\test\lib\site-packages\theano\scan_module\scan_perform_ext.py:76: UserWarning: The file scan_perform.c is not available. This donot happen normally. You are probably in a strangesetup. This mean Theano can not use the cython code for scan. If youwant to remove this warning, use the Theano flag'cxx=' (set to an empty string) to disable all ccode generation.
+  "The file scan_perform.c is not available. This do"
+D:\software\anaconda\envs\test\lib\site-packages\theano\scan_module\scan_perform_ext.py:76: UserWarning: The file scan_perform.c is not available. This donot happen normally. You are probably in a strangesetup. This mean Theano can not use the cython code for scan. If youwant to remove this warning, use the Theano flag'cxx=' (set to an empty string) to disable all ccode generation.
+  "The file scan_perform.c is not available. This do"
+Starting training...
+Epoch 1 of 10 took 127.302s
+  training loss:                1.993937
+  validation loss:              0.797435
+  validation accuracy:          66.25 %
+Final results:
+  test loss:                    1.098363
+  test accuracy:                49.52 %
+Epoch 2 of 10 took 126.491s
+  training loss:                1.052785
+  validation loss:              0.221613
+  validation accuracy:          92.79 %
+Final results:
+  test loss:                    1.294751
+  test accuracy:                47.15 %
+Epoch 3 of 10 took 176.160s
+  training loss:                0.659919
+  validation loss:              0.303327
+  validation accuracy:          89.00 %
+Epoch 4 of 10 took 144.628s
+  training loss:                0.527498
+  validation loss:              0.136839
+  validation accuracy:          92.94 %
+Final results:
+  test loss:                    1.278260
+  test accuracy:                63.79 %
+Epoch 5 of 10 took 126.191s
+  training loss:                0.489243
+  validation loss:              0.185516
+  validation accuracy:          92.27 %
+Epoch 6 of 10 took 126.053s
+  training loss:                0.418620
+  validation loss:              0.131098
+  validation accuracy:          94.12 %
+Final results:
+  test loss:                    1.409294
+  test accuracy:                60.23 %
+Epoch 7 of 10 took 126.895s
+  training loss:                0.391003
+  validation loss:              0.155607
+  validation accuracy:          94.12 %
+Epoch 8 of 10 took 126.370s
+  training loss:                0.361854
+  validation loss:              0.104394
+  validation accuracy:          94.65 %
+Final results:
+  test loss:                    1.419665
+  test accuracy:                57.33 %
+Epoch 9 of 10 took 126.029s
+  training loss:                0.328676
+  validation loss:              0.150329
+  validation accuracy:          91.90 %
+Epoch 10 of 10 took 126.345s
+  training loss:                0.315201
+  validation loss:              0.109335
+  validation accuracy:          94.50 %
+--------------------------------------------------
+Best validation accuracy:               94.65 %
+Best test accuracy:             57.33 %
+fold 2/13
+Building model and compiling functions...
+D:\software\anaconda\envs\test\lib\site-packages\theano\scan_module\scan_perform_ext.py:76: UserWarning: The file scan_perform.c is not available. This donot happen normally. You are probably in a strangesetup. This mean Theano can not use the cython code for scan. If youwant to remove this warning, use the Theano flag'cxx=' (set to an empty string) to disable all ccode generation.
+  "The file scan_perform.c is not available. This do"
+D:\software\anaconda\envs\test\lib\site-packages\theano\scan_module\scan_perform_ext.py:76: UserWarning: The file scan_perform.c is not available. This donot happen normally. You are probably in a strangesetup. This mean Theano can not use the cython code for scan. If youwant to remove this warning, use the Theano flag'cxx=' (set to an empty string) to disable all ccode generation.
+  "The file scan_perform.c is not available. This do"
+D:\software\anaconda\envs\test\lib\site-packages\theano\scan_module\scan_perform_ext.py:76: UserWarning: The file scan_perform.c is not available. This donot happen normally. You are probably in a strangesetup. This mean Theano can not use the cython code for scan. If youwant to remove this warning, use the Theano flag'cxx=' (set to an empty string) to disable all ccode generation.
+  "The file scan_perform.c is not available. This do"
+Starting training...
+Epoch 1 of 10 took 124.681s
+  training loss:                1.996897
+  validation loss:              0.817788
+  validation accuracy:          67.95 %
+Final results:
+  test loss:                    1.060152
+  test accuracy:                43.12 %
+Epoch 2 of 10 took 124.738s
+  training loss:                1.228784
+  validation loss:              0.315840
+  validation accuracy:          91.07 %
+Final results:
+  test loss:                    1.016742
+  test accuracy:                66.88 %
+Epoch 3 of 10 took 124.544s
+  training loss:                0.803198
+  validation loss:              0.226948
+  validation accuracy:          92.59 %
+Final results:
+  test loss:                    0.464585
+  test accuracy:                72.68 %
+Epoch 4 of 10 took 124.672s
+  training loss:                0.580817
+  validation loss:              0.151135
+  validation accuracy:          95.54 %
+Final results:
+  test loss:                    0.539739
+  test accuracy:                75.45 %
+Epoch 5 of 10 took 124.470s
+  training loss:                0.516009
+  validation loss:              0.211921
+  validation accuracy:          92.14 %
+Epoch 6 of 10 took 124.637s
+  training loss:                0.480791
+  validation loss:              0.119338
+  validation accuracy:          95.54 %
+Epoch 7 of 10 took 124.639s
+  training loss:                0.412651
+  validation loss:              0.111809
+  validation accuracy:          95.54 %
+Epoch 8 of 10 took 124.698s
+  training loss:                0.384993
+  validation loss:              0.107832
+  validation accuracy:          95.54 %
+Epoch 9 of 10 took 124.804s
+  training loss:                0.352226
+  validation loss:              0.104485
+  validation accuracy:          95.54 %
+Epoch 10 of 10 took 124.514s
+  training loss:                0.350486
+  validation loss:              0.132173
+  validation accuracy:          94.82 %
+--------------------------------------------------
+Best validation accuracy:               95.54 %
+Best test accuracy:             75.45 %
+fold 3/13
+Building model and compiling functions...
+D:\software\anaconda\envs\test\lib\site-packages\theano\scan_module\scan_perform_ext.py:76: UserWarning: The file scan_perform.c is not available. This donot happen normally. You are probably in a strangesetup. This mean Theano can not use the cython code for scan. If youwant to remove this warning, use the Theano flag'cxx=' (set to an empty string) to disable all ccode generation.
+  "The file scan_perform.c is not available. This do"
+D:\software\anaconda\envs\test\lib\site-packages\theano\scan_module\scan_perform_ext.py:76: UserWarning: The file scan_perform.c is not available. This donot happen normally. You are probably in a strangesetup. This mean Theano can not use the cython code for scan. If youwant to remove this warning, use the Theano flag'cxx=' (set to an empty string) to disable all ccode generation.
+  "The file scan_perform.c is not available. This do"
+D:\software\anaconda\envs\test\lib\site-packages\theano\scan_module\scan_perform_ext.py:76: UserWarning: The file scan_perform.c is not available. This donot happen normally. You are probably in a strangesetup. This mean Theano can not use the cython code for scan. If youwant to remove this warning, use the Theano flag'cxx=' (set to an empty string) to disable all ccode generation.
+  "The file scan_perform.c is not available. This do"
+Starting training...
+Epoch 1 of 10 took 127.510s
+  training loss:                1.936731
+  validation loss:              0.982907
+  validation accuracy:          65.75 %
+Final results:
+  test loss:                    1.444876
+  test accuracy:                59.95 %
+Epoch 2 of 10 took 127.569s
+  training loss:                1.238700
+  validation loss:              0.546979
+  validation accuracy:          79.21 %
+Final results:
+  test loss:                    0.705625
+  test accuracy:                74.30 %
+Epoch 3 of 10 took 128.242s
+  training loss:                0.775095
+  validation loss:              0.252501
+  validation accuracy:          92.41 %
+Final results:
+  test loss:                    0.243193
+  test accuracy:                91.07 %
+Epoch 4 of 10 took 127.654s
+  training loss:                0.593673
+  validation loss:              0.146113
+  validation accuracy:          92.60 %
+Final results:
+  test loss:                    0.195309
+  test accuracy:                92.86 %
+Epoch 5 of 10 took 127.425s
+  training loss:                0.518996
+  validation loss:              0.478108
+  validation accuracy:          84.31 %
+Epoch 6 of 10 took 127.491s
+  training loss:                0.480460
+  validation loss:              0.142376
+  validation accuracy:          92.16 %
+Epoch 7 of 10 took 127.364s
+  training loss:                0.423355
+  validation loss:              0.149413
+  validation accuracy:          91.26 %
+Epoch 8 of 10 took 127.369s
+  training loss:                0.411127
+  validation loss:              0.189154
+  validation accuracy:          91.71 %
+Epoch 9 of 10 took 127.677s
+  training loss:                0.381094
+  validation loss:              0.132500
+  validation accuracy:          93.05 %
+Final results:
+  test loss:                    0.160457
+  test accuracy:                95.98 %
+Epoch 10 of 10 took 127.884s
+  training loss:                0.367105
+  validation loss:              0.150252
+  validation accuracy:          90.82 %
+--------------------------------------------------
+Best validation accuracy:               93.05 %
+Best test accuracy:             95.98 %
+fold 4/13
+Building model and compiling functions...
+D:\software\anaconda\envs\test\lib\site-packages\theano\scan_module\scan_perform_ext.py:76: UserWarning: The file scan_perform.c is not available. This donot happen normally. You are probably in a strangesetup. This mean Theano can not use the cython code for scan. If youwant to remove this warning, use the Theano flag'cxx=' (set to an empty string) to disable all ccode generation.
+  "The file scan_perform.c is not available. This do"
+D:\software\anaconda\envs\test\lib\site-packages\theano\scan_module\scan_perform_ext.py:76: UserWarning: The file scan_perform.c is not available. This donot happen normally. You are probably in a strangesetup. This mean Theano can not use the cython code for scan. If youwant to remove this warning, use the Theano flag'cxx=' (set to an empty string) to disable all ccode generation.
+  "The file scan_perform.c is not available. This do"
+D:\software\anaconda\envs\test\lib\site-packages\theano\scan_module\scan_perform_ext.py:76: UserWarning: The file scan_perform.c is not available. This donot happen normally. You are probably in a strangesetup. This mean Theano can not use the cython code for scan. If youwant to remove this warning, use the Theano flag'cxx=' (set to an empty string) to disable all ccode generation.
+  "The file scan_perform.c is not available. This do"
+Starting training...
+Epoch 1 of 10 took 126.347s
+  training loss:                2.018127
+  validation loss:              1.039460
+  validation accuracy:          58.58 %
+Final results:
+  test loss:                    1.110744
+  test accuracy:                56.85 %
+Epoch 2 of 10 took 126.720s
+  training loss:                1.263672
+  validation loss:              0.314992
+  validation accuracy:          87.25 %
+Final results:
+  test loss:                    0.118412
+  test accuracy:                97.52 %
+Epoch 3 of 10 took 126.151s
+  training loss:                0.732048
+  validation loss:              0.244948
+  validation accuracy:          89.04 %
+Final results:
+  test loss:                    0.046578
+  test accuracy:                98.66 %
+Epoch 4 of 10 took 126.976s
+  training loss:                0.562759
+  validation loss:              0.163241
+  validation accuracy:          91.96 %
+Final results:
+  test loss:                    0.021288
+  test accuracy:                99.55 %
+Epoch 5 of 10 took 127.236s
+  training loss:                0.486320
+  validation loss:              0.141609
+  validation accuracy:          92.41 %
+Final results:
+  test loss:                    0.006357
+  test accuracy:                99.55 %
+Epoch 6 of 10 took 127.432s
+  training loss:                0.431760
+  validation loss:              0.125340
+  validation accuracy:          92.41 %
+Epoch 7 of 10 took 128.116s
+  training loss:                0.429074
+  validation loss:              0.119847
+  validation accuracy:          92.41 %
+Epoch 8 of 10 took 126.186s
+  training loss:                0.399495
+  validation loss:              0.109355
+  validation accuracy:          95.54 %
+Final results:
+  test loss:                    0.003792
+  test accuracy:                100.00 %
+Epoch 9 of 10 took 127.146s
+  training loss:                0.357289
+  validation loss:              0.162134
+  validation accuracy:          91.96 %
+Epoch 10 of 10 took 127.607s
+  training loss:                0.339215
+  validation loss:              0.123486
+  validation accuracy:          92.41 %
+--------------------------------------------------
+Best validation accuracy:               95.54 %
+Best test accuracy:             100.00 %
+fold 5/13
+Building model and compiling functions...
+D:\software\anaconda\envs\test\lib\site-packages\theano\scan_module\scan_perform_ext.py:76: UserWarning: The file scan_perform.c is not available. This donot happen normally. You are probably in a strangesetup. This mean Theano can not use the cython code for scan. If youwant to remove this warning, use the Theano flag'cxx=' (set to an empty string) to disable all ccode generation.
+  "The file scan_perform.c is not available. This do"
+D:\software\anaconda\envs\test\lib\site-packages\theano\scan_module\scan_perform_ext.py:76: UserWarning: The file scan_perform.c is not available. This donot happen normally. You are probably in a strangesetup. This mean Theano can not use the cython code for scan. If youwant to remove this warning, use the Theano flag'cxx=' (set to an empty string) to disable all ccode generation.
+  "The file scan_perform.c is not available. This do"
+D:\software\anaconda\envs\test\lib\site-packages\theano\scan_module\scan_perform_ext.py:76: UserWarning: The file scan_perform.c is not available. This donot happen normally. You are probably in a strangesetup. This mean Theano can not use the cython code for scan. If youwant to remove this warning, use the Theano flag'cxx=' (set to an empty string) to disable all ccode generation.
+  "The file scan_perform.c is not available. This do"
+Starting training...
+Epoch 1 of 10 took 128.618s
+  training loss:                2.044711
+  validation loss:              1.036649
+  validation accuracy:          62.05 %
+Final results:
+  test loss:                    1.020595
+  test accuracy:                66.52 %
+Epoch 2 of 10 took 127.187s
+  training loss:                1.298277
+  validation loss:              0.712611
+  validation accuracy:          68.30 %
+Final results:
+  test loss:                    0.212947
+  test accuracy:                95.98 %
+Epoch 3 of 10 took 127.117s
+  training loss:                0.825273
+  validation loss:              0.349129
+  validation accuracy:          85.27 %
+Final results:
+  test loss:                    0.151518
+  test accuracy:                95.09 %
+Epoch 4 of 10 took 126.979s
+  training loss:                0.599249
+  validation loss:              0.314333
+  validation accuracy:          84.38 %
+Epoch 5 of 10 took 126.749s
+  training loss:                0.489676
+  validation loss:              0.412226
+  validation accuracy:          82.14 %
+Epoch 6 of 10 took 126.351s
+  training loss:                0.440668
+  validation loss:              0.298732
+  validation accuracy:          88.84 %
+Final results:
+  test loss:                    0.098680
+  test accuracy:                97.32 %
+Epoch 7 of 10 took 126.573s
+  training loss:                0.434262
+  validation loss:              0.342633
+  validation accuracy:          85.71 %
+Epoch 8 of 10 took 126.499s
+  training loss:                0.395934
+  validation loss:              0.185749
+  validation accuracy:          90.62 %
+Final results:
+  test loss:                    0.008368
+  test accuracy:                100.00 %
+Epoch 9 of 10 took 126.966s
+  training loss:                0.366283
+  validation loss:              0.285085
+  validation accuracy:          88.84 %
+Epoch 10 of 10 took 126.830s
+  training loss:                0.356348
+  validation loss:              0.185086
+  validation accuracy:          92.86 %
+Final results:
+  test loss:                    0.008959
+  test accuracy:                100.00 %
+--------------------------------------------------
+Best validation accuracy:               92.86 %
+Best test accuracy:             100.00 %
+fold 6/13
+Building model and compiling functions...
+D:\software\anaconda\envs\test\lib\site-packages\theano\scan_module\scan_perform_ext.py:76: UserWarning: The file scan_perform.c is not available. This donot happen normally. You are probably in a strangesetup. This mean Theano can not use the cython code for scan. If youwant to remove this warning, use the Theano flag'cxx=' (set to an empty string) to disable all ccode generation.
+  "The file scan_perform.c is not available. This do"
+D:\software\anaconda\envs\test\lib\site-packages\theano\scan_module\scan_perform_ext.py:76: UserWarning: The file scan_perform.c is not available. This donot happen normally. You are probably in a strangesetup. This mean Theano can not use the cython code for scan. If youwant to remove this warning, use the Theano flag'cxx=' (set to an empty string) to disable all ccode generation.
+  "The file scan_perform.c is not available. This do"
+D:\software\anaconda\envs\test\lib\site-packages\theano\scan_module\scan_perform_ext.py:76: UserWarning: The file scan_perform.c is not available. This donot happen normally. You are probably in a strangesetup. This mean Theano can not use the cython code for scan. If youwant to remove this warning, use the Theano flag'cxx=' (set to an empty string) to disable all ccode generation.
+  "The file scan_perform.c is not available. This do"
+Starting training...
+Epoch 1 of 10 took 126.955s
+  training loss:                1.998713
+  validation loss:              0.930630
+  validation accuracy:          61.76 %
+Final results:
+  test loss:                    0.899587
+  test accuracy:                59.23 %
+Epoch 2 of 10 took 126.118s
+  training loss:                1.197867
+  validation loss:              0.496706
+  validation accuracy:          81.20 %
+Final results:
+  test loss:                    0.448531
+  test accuracy:                84.52 %
+Epoch 3 of 10 took 125.638s
+  training loss:                0.734644
+  validation loss:              0.197595
+  validation accuracy:          91.07 %
+Final results:
+  test loss:                    0.119718
+  test accuracy:                95.29 %
+Epoch 4 of 10 took 125.698s
+  training loss:                0.586915
+  validation loss:              0.149281
+  validation accuracy:          92.41 %
+Final results:
+  test loss:                    0.026655
+  test accuracy:                100.00 %
+Epoch 5 of 10 took 126.087s
+  training loss:                0.471130
+  validation loss:              0.155821
+  validation accuracy:          92.86 %
+Final results:
+  test loss:                    0.033444
+  test accuracy:                98.21 %
+Epoch 6 of 10 took 126.495s
+  training loss:                0.449121
+  validation loss:              0.170111
+  validation accuracy:          91.96 %
+Epoch 7 of 10 took 126.451s
+  training loss:                0.421831
+  validation loss:              0.135178
+  validation accuracy:          92.86 %
+Epoch 8 of 10 took 126.399s
+  training loss:                0.378877
+  validation loss:              0.146914
+  validation accuracy:          91.52 %
+Epoch 9 of 10 took 126.798s
+  training loss:                0.368732
+  validation loss:              0.164157
+  validation accuracy:          91.96 %
+Epoch 10 of 10 took 126.124s
+  training loss:                0.339900
+  validation loss:              0.194134
+  validation accuracy:          91.07 %
+--------------------------------------------------
+Best validation accuracy:               92.86 %
+Best test accuracy:             98.21 %
+fold 7/13
+Building model and compiling functions...
+D:\software\anaconda\envs\test\lib\site-packages\theano\scan_module\scan_perform_ext.py:76: UserWarning: The file scan_perform.c is not available. This donot happen normally. You are probably in a strangesetup. This mean Theano can not use the cython code for scan. If youwant to remove this warning, use the Theano flag'cxx=' (set to an empty string) to disable all ccode generation.
+  "The file scan_perform.c is not available. This do"
+D:\software\anaconda\envs\test\lib\site-packages\theano\scan_module\scan_perform_ext.py:76: UserWarning: The file scan_perform.c is not available. This donot happen normally. You are probably in a strangesetup. This mean Theano can not use the cython code for scan. If youwant to remove this warning, use the Theano flag'cxx=' (set to an empty string) to disable all ccode generation.
+  "The file scan_perform.c is not available. This do"
+D:\software\anaconda\envs\test\lib\site-packages\theano\scan_module\scan_perform_ext.py:76: UserWarning: The file scan_perform.c is not available. This donot happen normally. You are probably in a strangesetup. This mean Theano can not use the cython code for scan. If youwant to remove this warning, use the Theano flag'cxx=' (set to an empty string) to disable all ccode generation.
+  "The file scan_perform.c is not available. This do"
+Starting training...
+Epoch 1 of 10 took 128.144s
+  training loss:                2.050823
+  validation loss:              0.807287
+  validation accuracy:          68.75 %
+Final results:
+  test loss:                    0.659354
+  test accuracy:                75.45 %
+Epoch 2 of 10 took 127.735s
+  training loss:                1.207059
+  validation loss:              0.371512
+  validation accuracy:          85.27 %
+Final results:
+  test loss:                    0.189962
+  test accuracy:                92.86 %
+Epoch 3 of 10 took 127.595s
+  training loss:                0.759138
+  validation loss:              0.209945
+  validation accuracy:          91.07 %
+Final results:
+  test loss:                    0.085012
+  test accuracy:                98.21 %
+Epoch 4 of 10 took 127.690s
+  training loss:                0.572448
+  validation loss:              0.176166
+  validation accuracy:          93.75 %
+Final results:
+  test loss:                    0.062470
+  test accuracy:                97.77 %
+Epoch 5 of 10 took 127.661s
+  training loss:                0.501638
+  validation loss:              0.176859
+  validation accuracy:          92.86 %
+Epoch 6 of 10 took 127.371s
+  training loss:                0.431429
+  validation loss:              0.153588
+  validation accuracy:          94.20 %
+Final results:
+  test loss:                    0.004627
+  test accuracy:                100.00 %
+Epoch 7 of 10 took 127.312s
+  training loss:                0.397402
+  validation loss:              0.149897
+  validation accuracy:          93.30 %
+Epoch 8 of 10 took 127.406s
+  training loss:                0.369025
+  validation loss:              0.172227
+  validation accuracy:          93.30 %
+Epoch 9 of 10 took 127.219s
+  training loss:                0.360906
+  validation loss:              0.170289
+  validation accuracy:          94.20 %
+Epoch 10 of 10 took 126.882s
+  training loss:                0.340342
+  validation loss:              0.172540
+  validation accuracy:          93.75 %
+--------------------------------------------------
+Best validation accuracy:               94.20 %
+Best test accuracy:             100.00 %
+fold 8/13
+Building model and compiling functions...
+D:\software\anaconda\envs\test\lib\site-packages\theano\scan_module\scan_perform_ext.py:76: UserWarning: The file scan_perform.c is not available. This donot happen normally. You are probably in a strangesetup. This mean Theano can not use the cython code for scan. If youwant to remove this warning, use the Theano flag'cxx=' (set to an empty string) to disable all ccode generation.
+  "The file scan_perform.c is not available. This do"
+D:\software\anaconda\envs\test\lib\site-packages\theano\scan_module\scan_perform_ext.py:76: UserWarning: The file scan_perform.c is not available. This donot happen normally. You are probably in a strangesetup. This mean Theano can not use the cython code for scan. If youwant to remove this warning, use the Theano flag'cxx=' (set to an empty string) to disable all ccode generation.
+  "The file scan_perform.c is not available. This do"
+D:\software\anaconda\envs\test\lib\site-packages\theano\scan_module\scan_perform_ext.py:76: UserWarning: The file scan_perform.c is not available. This donot happen normally. You are probably in a strangesetup. This mean Theano can not use the cython code for scan. If youwant to remove this warning, use the Theano flag'cxx=' (set to an empty string) to disable all ccode generation.
+  "The file scan_perform.c is not available. This do"
+Starting training...
+Epoch 1 of 10 took 126.883s
+  training loss:                2.065947
+  validation loss:              0.914148
+  validation accuracy:          59.82 %
+Final results:
+  test loss:                    0.723286
+  test accuracy:                71.25 %
+Epoch 2 of 10 took 125.722s
+  training loss:                1.245291
+  validation loss:              0.419809
+  validation accuracy:          87.41 %
+Final results:
+  test loss:                    0.134475
+  test accuracy:                97.77 %
+Epoch 3 of 10 took 126.778s
+  training loss:                0.766182
+  validation loss:              0.203493
+  validation accuracy:          90.62 %
+Final results:
+  test loss:                    0.061647
+  test accuracy:                98.66 %
+Epoch 4 of 10 took 126.818s
+  training loss:                0.549705
+  validation loss:              0.139279
+  validation accuracy:          91.88 %
+Final results:
+  test loss:                    0.019358
+  test accuracy:                99.55 %
+Epoch 5 of 10 took 126.174s
+  training loss:                0.472183
+  validation loss:              0.190762
+  validation accuracy:          89.20 %
+Epoch 6 of 10 took 126.289s
+  training loss:                0.435283
+  validation loss:              0.129891
+  validation accuracy:          92.32 %
+Final results:
+  test loss:                    0.006383
+  test accuracy:                100.00 %
+Epoch 7 of 10 took 126.202s
+  training loss:                0.384314
+  validation loss:              0.117486
+  validation accuracy:          93.30 %
+Final results:
+  test loss:                    0.006666
+  test accuracy:                100.00 %
+Epoch 8 of 10 took 126.742s
+  training loss:                0.372248
+  validation loss:              0.154881
+  validation accuracy:          92.86 %
+Epoch 9 of 10 took 126.623s
+  training loss:                0.360078
+  validation loss:              0.132073
+  validation accuracy:          93.30 %
+Epoch 10 of 10 took 126.182s
+  training loss:                0.365745
+  validation loss:              0.140367
+  validation accuracy:          91.96 %
+--------------------------------------------------
+Best validation accuracy:               93.30 %
+Best test accuracy:             100.00 %
+fold 9/13
+Building model and compiling functions...
+D:\software\anaconda\envs\test\lib\site-packages\theano\scan_module\scan_perform_ext.py:76: UserWarning: The file scan_perform.c is not available. This donot happen normally. You are probably in a strangesetup. This mean Theano can not use the cython code for scan. If youwant to remove this warning, use the Theano flag'cxx=' (set to an empty string) to disable all ccode generation.
+  "The file scan_perform.c is not available. This do"
+D:\software\anaconda\envs\test\lib\site-packages\theano\scan_module\scan_perform_ext.py:76: UserWarning: The file scan_perform.c is not available. This donot happen normally. You are probably in a strangesetup. This mean Theano can not use the cython code for scan. If youwant to remove this warning, use the Theano flag'cxx=' (set to an empty string) to disable all ccode generation.
+  "The file scan_perform.c is not available. This do"
+D:\software\anaconda\envs\test\lib\site-packages\theano\scan_module\scan_perform_ext.py:76: UserWarning: The file scan_perform.c is not available. This donot happen normally. You are probably in a strangesetup. This mean Theano can not use the cython code for scan. If youwant to remove this warning, use the Theano flag'cxx=' (set to an empty string) to disable all ccode generation.
+  "The file scan_perform.c is not available. This do"
+Starting training...
+Epoch 1 of 10 took 125.778s
+  training loss:                1.980296
+  validation loss:              0.816978
+  validation accuracy:          69.05 %
+Final results:
+  test loss:                    0.684485
+  test accuracy:                75.69 %
+Epoch 2 of 10 took 125.122s
+  training loss:                1.260583
+  validation loss:              0.397989
+  validation accuracy:          87.25 %
+Final results:
+  test loss:                    0.211374
+  test accuracy:                92.51 %
+Epoch 3 of 10 took 125.778s
+  training loss:                0.853667
+  validation loss:              0.276115
+  validation accuracy:          88.59 %
+Final results:
+  test loss:                    0.303549
+  test accuracy:                89.38 %
+Epoch 4 of 10 took 125.210s
+  training loss:                0.671978
+  validation loss:              0.201818
+  validation accuracy:          91.62 %
+Final results:
+  test loss:                    0.079281
+  test accuracy:                96.08 %
+Epoch 5 of 10 took 125.014s
+  training loss:                0.550166
+  validation loss:              0.178263
+  validation accuracy:          92.06 %
+Final results:
+  test loss:                    0.049631
+  test accuracy:                98.21 %
+Epoch 6 of 10 took 125.098s
+  training loss:                0.500928
+  validation loss:              0.205454
+  validation accuracy:          91.27 %
+Epoch 7 of 10 took 124.829s
+  training loss:                0.476866
+  validation loss:              0.194697
+  validation accuracy:          91.62 %
+Epoch 8 of 10 took 124.927s
+  training loss:                0.441344
+  validation loss:              0.144153
+  validation accuracy:          91.52 %
+Epoch 9 of 10 took 124.937s
+  training loss:                0.425363
+  validation loss:              0.150580
+  validation accuracy:          92.51 %
+Final results:
+  test loss:                    0.069950
+  test accuracy:                97.77 %
+Epoch 10 of 10 took 124.859s
+  training loss:                0.440198
+  validation loss:              0.179717
+  validation accuracy:          91.62 %
+--------------------------------------------------
+Best validation accuracy:               92.51 %
+Best test accuracy:             97.77 %
+fold 10/13
+Building model and compiling functions...
+D:\software\anaconda\envs\test\lib\site-packages\theano\scan_module\scan_perform_ext.py:76: UserWarning: The file scan_perform.c is not available. This donot happen normally. You are probably in a strangesetup. This mean Theano can not use the cython code for scan. If youwant to remove this warning, use the Theano flag'cxx=' (set to an empty string) to disable all ccode generation.
+  "The file scan_perform.c is not available. This do"
+D:\software\anaconda\envs\test\lib\site-packages\theano\scan_module\scan_perform_ext.py:76: UserWarning: The file scan_perform.c is not available. This donot happen normally. You are probably in a strangesetup. This mean Theano can not use the cython code for scan. If youwant to remove this warning, use the Theano flag'cxx=' (set to an empty string) to disable all ccode generation.
+  "The file scan_perform.c is not available. This do"
+D:\software\anaconda\envs\test\lib\site-packages\theano\scan_module\scan_perform_ext.py:76: UserWarning: The file scan_perform.c is not available. This donot happen normally. You are probably in a strangesetup. This mean Theano can not use the cython code for scan. If youwant to remove this warning, use the Theano flag'cxx=' (set to an empty string) to disable all ccode generation.
+  "The file scan_perform.c is not available. This do"
+Starting training...
+Epoch 1 of 10 took 123.918s
+  training loss:                2.016725
+  validation loss:              0.978682
+  validation accuracy:          62.89 %
+Final results:
+  test loss:                    1.138679
+  test accuracy:                48.83 %
+Epoch 2 of 10 took 123.656s
+  training loss:                1.261199
+  validation loss:              0.393928
+  validation accuracy:          83.59 %
+Final results:
+  test loss:                    0.326552
+  test accuracy:                91.80 %
+Epoch 3 of 10 took 124.085s
+  training loss:                0.801906
+  validation loss:              0.231605
+  validation accuracy:          90.62 %
+Final results:
+  test loss:                    0.226300
+  test accuracy:                94.92 %
+Epoch 4 of 10 took 124.023s
+  training loss:                0.648792
+  validation loss:              0.231529
+  validation accuracy:          93.75 %
+Final results:
+  test loss:                    0.212015
+  test accuracy:                91.41 %
+Epoch 5 of 10 took 124.122s
+  training loss:                0.551596
+  validation loss:              0.154163
+  validation accuracy:          92.58 %
+Epoch 6 of 10 took 123.926s
+  training loss:                0.502140
+  validation loss:              0.141603
+  validation accuracy:          94.92 %
+Final results:
+  test loss:                    0.088489
+  test accuracy:                97.27 %
+Epoch 7 of 10 took 124.553s
+  training loss:                0.441015
+  validation loss:              0.147946
+  validation accuracy:          94.53 %
+Epoch 8 of 10 took 124.176s
+  training loss:                0.410378
+  validation loss:              0.168314
+  validation accuracy:          92.97 %
+Epoch 9 of 10 took 124.418s
+  training loss:                0.376103
+  validation loss:              0.223434
+  validation accuracy:          93.75 %
+Epoch 10 of 10 took 123.936s
+  training loss:                0.399617
+  validation loss:              0.147012
+  validation accuracy:          93.75 %
+--------------------------------------------------
+Best validation accuracy:               94.92 %
+Best test accuracy:             97.27 %
+fold 11/13
+Building model and compiling functions...
+D:\software\anaconda\envs\test\lib\site-packages\theano\scan_module\scan_perform_ext.py:76: UserWarning: The file scan_perform.c is not available. This donot happen normally. You are probably in a strangesetup. This mean Theano can not use the cython code for scan. If youwant to remove this warning, use the Theano flag'cxx=' (set to an empty string) to disable all ccode generation.
+  "The file scan_perform.c is not available. This do"
+D:\software\anaconda\envs\test\lib\site-packages\theano\scan_module\scan_perform_ext.py:76: UserWarning: The file scan_perform.c is not available. This donot happen normally. You are probably in a strangesetup. This mean Theano can not use the cython code for scan. If youwant to remove this warning, use the Theano flag'cxx=' (set to an empty string) to disable all ccode generation.
+  "The file scan_perform.c is not available. This do"
+D:\software\anaconda\envs\test\lib\site-packages\theano\scan_module\scan_perform_ext.py:76: UserWarning: The file scan_perform.c is not available. This donot happen normally. You are probably in a strangesetup. This mean Theano can not use the cython code for scan. If youwant to remove this warning, use the Theano flag'cxx=' (set to an empty string) to disable all ccode generation.
+  "The file scan_perform.c is not available. This do"
+Starting training...
+Epoch 1 of 10 took 124.664s
+  training loss:                2.006652
+  validation loss:              0.763232
+  validation accuracy:          66.29 %
+Final results:
+  test loss:                    1.113021
+  test accuracy:                59.66 %
+Epoch 2 of 10 took 124.505s
+  training loss:                1.184616
+  validation loss:              0.420997
+  validation accuracy:          82.04 %
+Final results:
+  test loss:                    0.731101
+  test accuracy:                73.87 %
+Epoch 3 of 10 took 124.374s
+  training loss:                0.781688
+  validation loss:              0.279613
+  validation accuracy:          89.36 %
+Final results:
+  test loss:                    0.422579
+  test accuracy:                87.32 %
+Epoch 4 of 10 took 124.372s
+  training loss:                0.632521
+  validation loss:              0.224659
+  validation accuracy:          91.84 %
+Final results:
+  test loss:                    0.294649
+  test accuracy:                90.70 %
+Epoch 5 of 10 took 124.311s
+  training loss:                0.567692
+  validation loss:              0.193378
+  validation accuracy:          91.71 %
+Epoch 6 of 10 took 124.476s
+  training loss:                0.489988
+  validation loss:              0.179858
+  validation accuracy:          92.61 %
+Final results:
+  test loss:                    0.088890
+  test accuracy:                95.73 %
+Epoch 7 of 10 took 124.370s
+  training loss:                0.476315
+  validation loss:              0.150109
+  validation accuracy:          94.39 %
+Final results:
+  test loss:                    0.156503
+  test accuracy:                94.71 %
+Epoch 8 of 10 took 124.578s
+  training loss:                0.413474
+  validation loss:              0.165593
+  validation accuracy:          93.05 %
+Epoch 9 of 10 took 124.340s
+  training loss:                0.395732
+  validation loss:              0.172905
+  validation accuracy:          92.61 %
+Epoch 10 of 10 took 124.455s
+  training loss:                0.374124
+  validation loss:              0.233639
+  validation accuracy:          93.05 %
+--------------------------------------------------
+Best validation accuracy:               94.39 %
+Best test accuracy:             94.71 %
+fold 12/13
+Building model and compiling functions...
+D:\software\anaconda\envs\test\lib\site-packages\theano\scan_module\scan_perform_ext.py:76: UserWarning: The file scan_perform.c is not available. This donot happen normally. You are probably in a strangesetup. This mean Theano can not use the cython code for scan. If youwant to remove this warning, use the Theano flag'cxx=' (set to an empty string) to disable all ccode generation.
+  "The file scan_perform.c is not available. This do"
+D:\software\anaconda\envs\test\lib\site-packages\theano\scan_module\scan_perform_ext.py:76: UserWarning: The file scan_perform.c is not available. This donot happen normally. You are probably in a strangesetup. This mean Theano can not use the cython code for scan. If youwant to remove this warning, use the Theano flag'cxx=' (set to an empty string) to disable all ccode generation.
+  "The file scan_perform.c is not available. This do"
+D:\software\anaconda\envs\test\lib\site-packages\theano\scan_module\scan_perform_ext.py:76: UserWarning: The file scan_perform.c is not available. This donot happen normally. You are probably in a strangesetup. This mean Theano can not use the cython code for scan. If youwant to remove this warning, use the Theano flag'cxx=' (set to an empty string) to disable all ccode generation.
+  "The file scan_perform.c is not available. This do"
+Starting training...
+Epoch 1 of 10 took 125.229s
+  training loss:                1.955326
+  validation loss:              0.822695
+  validation accuracy:          64.89 %
+Final results:
+  test loss:                    1.127568
+  test accuracy:                42.04 %
+Epoch 2 of 10 took 125.407s
+  training loss:                1.088865
+  validation loss:              0.276564
+  validation accuracy:          91.07 %
+Final results:
+  test loss:                    0.259035
+  test accuracy:                88.50 %
+Epoch 3 of 10 took 125.574s
+  training loss:                0.730241
+  validation loss:              0.274673
+  validation accuracy:          91.07 %
+Epoch 4 of 10 took 126.493s
+  training loss:                0.593527
+  validation loss:              0.195139
+  validation accuracy:          92.41 %
+Final results:
+  test loss:                    0.407871
+  test accuracy:                69.01 %
+Epoch 5 of 10 took 126.546s
+  training loss:                0.491055
+  validation loss:              0.188892
+  validation accuracy:          91.96 %
+Epoch 6 of 10 took 126.243s
+  training loss:                0.474672
+  validation loss:              0.186258
+  validation accuracy:          93.30 %
+Final results:
+  test loss:                    0.281136
+  test accuracy:                77.39 %
+Epoch 7 of 10 took 126.470s
+  training loss:                0.413540
+  validation loss:              0.191000
+  validation accuracy:          91.07 %
+Epoch 8 of 10 took 126.863s
+  training loss:                0.374327
+  validation loss:              0.197296
+  validation accuracy:          92.86 %
+Epoch 9 of 10 took 126.203s
+  training loss:                0.361631
+  validation loss:              0.194809
+  validation accuracy:          90.18 %
+Epoch 10 of 10 took 126.475s
+  training loss:                0.332822
+  validation loss:              0.184376
+  validation accuracy:          92.86 %
+--------------------------------------------------
+Best validation accuracy:               93.30 %
+Best test accuracy:             77.39 %
+fold 13/13
+Building model and compiling functions...
+D:\software\anaconda\envs\test\lib\site-packages\theano\scan_module\scan_perform_ext.py:76: UserWarning: The file scan_perform.c is not available. This donot happen normally. You are probably in a strangesetup. This mean Theano can not use the cython code for scan. If youwant to remove this warning, use the Theano flag'cxx=' (set to an empty string) to disable all ccode generation.
+  "The file scan_perform.c is not available. This do"
+D:\software\anaconda\envs\test\lib\site-packages\theano\scan_module\scan_perform_ext.py:76: UserWarning: The file scan_perform.c is not available. This donot happen normally. You are probably in a strangesetup. This mean Theano can not use the cython code for scan. If youwant to remove this warning, use the Theano flag'cxx=' (set to an empty string) to disable all ccode generation.
+  "The file scan_perform.c is not available. This do"
+D:\software\anaconda\envs\test\lib\site-packages\theano\scan_module\scan_perform_ext.py:76: UserWarning: The file scan_perform.c is not available. This donot happen normally. You are probably in a strangesetup. This mean Theano can not use the cython code for scan. If youwant to remove this warning, use the Theano flag'cxx=' (set to an empty string) to disable all ccode generation.
+  "The file scan_perform.c is not available. This do"
+Starting training...
+Epoch 1 of 10 took 124.436s
+  training loss:                1.978496
+  validation loss:              0.791882
+  validation accuracy:          67.98 %
+Final results:
+  test loss:                    1.651295
+  test accuracy:                41.20 %
+Epoch 2 of 10 took 123.696s
+  training loss:                1.156536
+  validation loss:              0.347524
+  validation accuracy:          88.78 %
+Final results:
+  test loss:                    1.382918
+  test accuracy:                65.69 %
+Epoch 3 of 10 took 124.382s
+  training loss:                0.640487
+  validation loss:              0.179978
+  validation accuracy:          93.69 %
+Final results:
+  test loss:                    1.171705
+  test accuracy:                45.85 %
+Epoch 4 of 10 took 124.380s
+  training loss:                0.526744
+  validation loss:              0.242125
+  validation accuracy:          91.84 %
+Epoch 5 of 10 took 124.291s
+  training loss:                0.442526
+  validation loss:              0.167746
+  validation accuracy:          94.13 %
+Final results:
+  test loss:                    1.115300
+  test accuracy:                45.85 %
+Epoch 6 of 10 took 124.242s
+  training loss:                0.376781
+  validation loss:              0.152359
+  validation accuracy:          95.47 %
+Final results:
+  test loss:                    1.186222
+  test accuracy:                46.30 %
+Epoch 7 of 10 took 124.361s
+  training loss:                0.348644
+  validation loss:              0.160891
+  validation accuracy:          95.03 %
+Epoch 8 of 10 took 123.876s
+  training loss:                0.310192
+  validation loss:              0.174003
+  validation accuracy:          91.33 %
+Epoch 9 of 10 took 123.769s
+  training loss:                0.311213
+  validation loss:              0.137015
+  validation accuracy:          95.54 %
+Final results:
+  test loss:                    1.530772
+  test accuracy:                45.85 %
+Epoch 10 of 10 took 123.681s
+  training loss:                0.278865
+  validation loss:              0.170949
+  validation accuracy:          91.77 %
+--------------------------------------------------
+Best validation accuracy:               95.54 %
+Best test accuracy:             45.85 %
+****************************************
+Average MIX test accuracy: 87.6898658502
+Average CNN test accuracy: 89.503939236
+****************************************
+Done!

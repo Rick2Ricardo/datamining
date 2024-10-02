@@ -8,6 +8,7 @@ import math as m
 
 import scipy.io
 import theano
+theano.config.gcc.cxxflags = '-isysroot /Library/Developer/CommandLineTools/SDKs/MacOSX.sdk -Wno-c++11-narrowing'
 import theano.tensor as T
 
 from scipy.interpolate import griddata
@@ -65,7 +66,7 @@ def gen_images(locs, features, n_gridpoints, normalize=True,
     # Test whether the feature vector length is divisible by number of electrodes
     assert features.shape[1] % nElectrodes == 0
     n_colors = features.shape[1] / nElectrodes
-    for c in range(n_colors):
+    for c in range(int(n_colors)):
         feat_array_temp.append(features[:, c * nElectrodes : nElectrodes * (c+1)])
     if augment:
         if pca:
@@ -82,7 +83,7 @@ def gen_images(locs, features, n_gridpoints, normalize=True,
                      min(locs[:, 1]):max(locs[:, 1]):n_gridpoints*1j
                      ]
     temp_interp = []
-    for c in range(n_colors):
+    for c in range(int(n_colors)):
         temp_interp.append(np.zeros([n_samples, n_gridpoints, n_gridpoints]))
 
     # Generate edgeless images
@@ -95,13 +96,13 @@ def gen_images(locs, features, n_gridpoints, normalize=True,
 
     # Interpolating
     for i in range(n_samples):
-        for c in range(n_colors):
+        for c in range(int(n_colors)):
             temp_interp[c][i, :, :] = griddata(locs, feat_array_temp[c][i, :], (grid_x, grid_y),
                                                method='cubic', fill_value=np.nan)
         print('Interpolating {0}/{1}\r'.format(i + 1, n_samples), end='\r')
 
     # Normalizing
-    for c in range(n_colors):
+    for c in range(int(n_colors)):
         if normalize:
             temp_interp[c][~np.isnan(temp_interp[c])] = \
                 scale(temp_interp[c][~np.isnan(temp_interp[c])])
@@ -458,15 +459,15 @@ if __name__ == '__main__':
 
     # Load electrode locations
     print('Loading data...')
-    locs = scipy.io.loadmat('../Sample data/Neuroscan_locs_orig.mat')
+    locs = scipy.io.loadmat('C:/Users/Ricardo/Desktop/data-mining/code/EEGLearn/Sample data/Neuroscan_locs_orig.mat')
     locs_3d = locs['A']
     locs_2d = []
     # Convert to 2D
     for e in locs_3d:
         locs_2d.append(azim_proj(e))
 
-    feats = scipy.io.loadmat('../Sample data/FeatureMat_timeWin.mat')['features']
-    subj_nums = np.squeeze(scipy.io.loadmat('../Sample data/trials_subNums.mat')['subjectNum'])
+    feats = scipy.io.loadmat('C:/Users/Ricardo/Desktop/data-mining/code/EEGLearn/Sample data/FeatureMat_timeWin.mat')['features']
+    subj_nums = np.squeeze(scipy.io.loadmat('C:/Users/Ricardo/Desktop/data-mining/code/EEGLearn/Sample data/trials_subNums.mat')['subjectNum'])
     # Leave-Subject-Out cross validation
     fold_pairs = []
     for i in np.unique(subj_nums):
@@ -480,7 +481,7 @@ if __name__ == '__main__':
     # CNN Mode
     print('Generating images...')
     # Find the average response over time windows
-    av_feats = reduce(lambda x, y: x+y, [feats[:, i*192:(i+1)*192] for i in range(feats.shape[1] / 192)])
+    av_feats = reduce(lambda x, y: x+y, [feats[:, i*192:(i+1)*192] for i in range(feats.shape[1] // 192)])
     av_feats = av_feats / (feats.shape[1] / 192)
     images = gen_images(np.array(locs_2d),
                         av_feats,

@@ -1,7 +1,9 @@
 # EEGLearn
-A set of functions for supervised feature learning/classification of mental states from EEG based on "EEG images".
-This code can be used to construct sequence of images (EEG movie snippets) from ongoing EEG activities and to classify between different cognitive states through recurrent-convolutional neural
-nets. More generally it could be used to discover patterns in multi-channel timeseries recordings with known spatial relationship between sensors. Each color channel in the output image can contains values for a specific features computed for all sensors within a time window.
+一组基于 “EEG images” 的 EEG 监督特征学习/心理状态分类的函数。
+
+此代码可用于从正在进行的 EEG 活动中构建图像序列（EEG 电影片段），并通过递归卷积神经对不同的认知状态进行分类
+
+网。更一般地说，它可以用来发现多通道时间序列记录中传感器之间具有已知空间关系的模式。输出图像中的每个颜色通道都可以包含为时间窗内的所有传感器计算的特定要素的值。
 
 ![alt text](diagram.png "Converting EEG recordings to movie snippets")
 
